@@ -11,6 +11,7 @@
     <p><%= product.description %></p>
     <h4>$<%= product.price %></h4>
     <%= link_to 'Show', product, :class=>"btn btn-primary" %>
+    <%= link_to 'Buy', '#', :class=>"btn btn-success", :data=> { :toggle=>'modal', :target=>'#buyModal'} %>
 
     </div>
     <% end %>
