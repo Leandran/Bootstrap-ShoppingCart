@@ -10,3 +10,41 @@
     </div>
 </div>
 
+<div class="modal fade" id="shoppingCart">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="pull-right text-primary"><b>4 items</b></p>
+                <h4 class="modal-title text-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Your Cart</h4>
+            </div>
+            <div class="modal-body">:
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Sl no</th>
+                        <th>Item Name</th>
+                        <th>Unit Price (R)</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                    <td>1</td>
+                    <td>Apple iPad Pro</td>
+                    <td>R350</td>
+                    <td><input type="text" class="form-control" value="1" placeholder="Enter Quantity" style="width: 50px;" /></td>
+                    <td>R350</td>
+                    <td><a href="#" class="btn btn-danger btn-sm">remove</a></td>
+                    </tr>
+                    <tr class="active lead">
+                        <td colspan="4">Total</td>
+                        <td>R350.00</td>
+                        <td><a href="#" class="btn btn-danger  btn-sm">clear all</a></td>
+
+                    </tr>
+                </table>
+                <a href="#" class="btn btn-success pull-right">Checkout <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a href="#" class="btn btn-default" data-dismiss="modal">Continue Shopping</a>
+            </div>
+        </div>
+    </div>
+</div>
